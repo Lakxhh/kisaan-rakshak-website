@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="#f1f9f4" />
+  
+  <!-- Irrigation System Icon -->
+  <g transform="translate(50, 50)">
+    <!-- Water Droplet -->
+    <path d="M50,0 C50,0 80,40 80,65 C80,90 65,100 50,100 C35,100 20,90 20,65 C20,40 50,0 50,0 Z" fill="#2ecc71" />
+    
+    <!-- Plant -->
+    <path d="M40,70 C40,70 30,50 40,30 M60,70 C60,70 70,50 60,30" stroke="#27ae60" stroke-width="3" fill="none" />
+    
+    <!-- Ground -->
+    <path d="M20,90 L80,90" stroke="#7f8c8d" stroke-width="3" />
+  </g>
+</svg>

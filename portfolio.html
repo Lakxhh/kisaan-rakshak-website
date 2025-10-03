@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kisaan Rakshak</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Kisaan<span>Rakshak</span></h1>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/page-banner.svg') no-repeat center center/cover;">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our successful projects and case studies</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter-section">
+        <div class="container">
+            <div class="portfolio-filter">
+                <button class="active" data-filter="all">All Projects</button>
+                <button data-filter="irrigation">Irrigation</button>
+                <button data-filter="monitoring">Crop Monitoring</button>
+                <button data-filter="analytics">Data Analytics</button>
+                <button data-filter="consulting">Consulting</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid-section">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Irrigation Projects -->
+                <div class="portfolio-item irrigation">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-irrigation1.svg" alt="Smart Irrigation Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Smart Irrigation System for Rice Fields</h3>
+                                <p>Punjab, India</p>
+                                <a href="#project1" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item irrigation">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-irrigation2.svg" alt="Water Conservation Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Water Conservation in Sugarcane Farming</h3>
+                                <p>Maharashtra, India</p>
+                                <a href="#project2" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Crop Monitoring Projects -->
+                <div class="portfolio-item monitoring">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-monitoring1.svg" alt="Crop Health Monitoring">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Satellite-Based Crop Health Monitoring</h3>
+                                <p>Gujarat, India</p>
+                                <a href="#project3" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item monitoring">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-monitoring2.svg" alt="Disease Detection System">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Early Disease Detection in Wheat Crops</h3>
+                                <p>Haryana, India</p>
+                                <a href="#project4" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analytics Projects -->
+                <div class="portfolio-item analytics">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-analytics1.svg" alt="Yield Prediction Model">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>AI-Powered Yield Prediction Model</h3>
+                                <p>Multiple Regions, India</p>
+                                <a href="#project5" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item analytics">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-analytics2.svg" alt="Resource Optimization">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Resource Optimization for Vegetable Farming</h3>
+                                <p>Karnataka, India</p>
+                                <a href="#project6" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Consulting Projects -->
+                <div class="portfolio-item consulting">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-consulting1.svg" alt="Sustainable Farming">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Sustainable Farming Practices Implementation</h3>
+                                <p>Tamil Nadu, India</p>
+                                <a href="#project7" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item consulting">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-consulting2.svg" alt="Crop Selection Guidance">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Crop Selection and Rotation Planning</h3>
+                                <p>Rajasthan, India</p>
+                                <a href="#project8" class="btn btn-primary portfolio-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Case Study -->
+    <section class="case-study-section" id="project1">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Case Study</h2>
+                <p>Smart Irrigation System for Rice Fields in Punjab</p>
+            </div>
+            <div class="case-study-content">
+                <div class="case-study-image">
+                    <img src="images/case-study-image.svg" alt="Case Study">
+                </div>
+                <div class="case-study-details">
+                    <div class="case-study-info">
+                        <h3>Project Overview</h3>
+                        <p>Implemented a comprehensive smart irrigation system for 500 hectares of rice fields in Punjab, helping farmers optimize water usage while maintaining optimal crop growth.</p>
+                        
+                        <h3>Challenges</h3>
+                        <ul>
+                            <li>Declining groundwater levels in the region</li>
+                            <li>Inconsistent rainfall patterns</li>
+                            <li>High water requirements for rice cultivation</li>
+                            <li>Limited technical knowledge among farmers</li>
+                        </ul>
+                        
+                        <h3>Our Solution</h3>
+                        <p>We deployed a network of soil moisture sensors across the fields, connected to our cloud-based analytics platform. The system provided real-time data on soil moisture levels and automatically adjusted irrigation schedules based on crop needs and weather forecasts.</p>
+                        
+                        <h3>Results</h3>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <div class="result-number">30%</div>
+                                <div class="result-label">Reduction in water usage</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">15%</div>
+                                <div class="result-label">Increase in crop yield</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">₹20L</div>
+                                <div class="result-label">Annual savings</div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-box">
+                            <p>"The smart irrigation system from Kisaan Rakshak has transformed our farming practices. We're using less water while growing more rice, and the mobile app makes it easy to monitor everything."</p>
+                            <div class="testimonial-author">
+                                <img src="images/farmer-testimonial.svg" alt="Farmer">
+                                <div class="author-info">
+                                    <h4>Gurpreet Singh</h4>
+                                    <p>Rice Farmer, Punjab</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Case Studies -->
+    <section class="more-case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2>More Success Stories</h2>
+                <p>Explore how our solutions have helped farmers across India</p>
+            </div>
+            <div class="case-studies-grid">
+                <div class="case-study-card" id="project2">
+                    <img src="images/case-study-thumb1.svg" alt="Case Study">
+                    <div class="case-study-card-content">
+                        <h3>Water Conservation in Sugarcane Farming</h3>
+                        <p>Implemented drip irrigation and soil moisture monitoring for sugarcane farms in Maharashtra, reducing water usage by 40% and increasing sugar content by 8%.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-study-card" id="project3">
+                    <img src="images/case-study-thumb2.svg" alt="Case Study">
+                    <div class="case-study-card-content">
+                        <h3>Satellite-Based Crop Health Monitoring</h3>
+                        <p>Used satellite imagery to monitor cotton crops in Gujarat, enabling early detection of pest infestations and reducing crop losses by 25%.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-study-card" id="project4">
+                    <img src="images/case-study-thumb3.svg" alt="Case Study">
+                    <div class="case-study-card-content">
+                        <h3>Early Disease Detection in Wheat Crops</h3>
+                        <p>Deployed sensors and AI-based image analysis to detect early signs of rust disease in wheat crops, helping farmers take preventive measures.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Farm?</h2>
+                <p>Join thousands of farmers who are already benefiting from Kisaan Rakshak's smart agricultural solutions</p>
+                <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Kisaan<span>Rakshak</span></h2>
+                    <p>Smart Agricultural Solutions for Modern Farmers</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="services.html#irrigation">Smart Irrigation</a></li>
+                            <li><a href="services.html#monitoring">Crop Monitoring</a></li>
+                            <li><a href="services.html#analytics">Data Analytics</a></li>
+                            <li><a href="services.html#consulting">Agricultural Consulting</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> Kisaan Rakshak, Jaipur, Rajasthan</li>
+                            <li><i class="fas fa-phone"></i> +91 9784459959</li>
+                            <li><i class="fas fa-envelope"></i> lakshorluckychoudhary@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Kisaan Rakshak. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="https://x.com/im_lakshh?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/lakshhh_._?igsh=MWM0aDlnY3F6dzhmOQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/laksh-choudhary-9b463828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Phone frame -->
+  <rect x="250" y="50" width="300" height="500" rx="30" ry="30" fill="#333" />
+  <rect x="260" y="60" width="280" height="480" rx="20" ry="20" fill="#fff" />
+  
+  <!-- App header -->
+  <rect x="260" y="60" width="280" height="60" fill="#4CAF50" />
+  <text x="280" y="100" font-family="Arial" font-size="20" fill="#fff">Farm Dashboard</text>
+  <circle cx="500" cy="90" r="15" fill="#fff" opacity="0.8" />
+  <text x="495" y="96" font-family="Arial" font-size="16" fill="#4CAF50">👤</text>
+  
+  <!-- Farm image -->
+  <rect x="270" y="130" width="260" height="120" fill="#87CEEB" />
+  <rect x="270" y="210" width="260" height="40" fill="#8BC34A" />
+  <path d="M270,210 Q400,170 530,210" fill="#8BC34A" />
+  <rect x="350" y="180" width="20" height="30" fill="#795548" />
+  <circle cx="360" cy="170" r="15" fill="#4CAF50" />
+  
+  <!-- Sensor readings -->
+  <rect x="270" y="260" width="125" height="80" rx="10" ry="10" fill="#f5f5f5" />
+  <text x="280" y="280" font-family="Arial" font-size="12" fill="#333">Soil Moisture</text>
+  <text x="320" y="310" font-family="Arial" font-size="24" font-weight="bold" fill="#4CAF50">75%</text>
+  
+  <rect x="405" y="260" width="125" height="80" rx="10" ry="10" fill="#f5f5f5" />
+  <text x="415" y="280" font-family="Arial" font-size="12" fill="#333">pH Level</text>
+  <text x="455" y="310" font-family="Arial" font-size="24" font-weight="bold" fill="#4CAF50">6.5</text>
+  
+  <rect x="270" y="350" width="125" height="80" rx="10" ry="10" fill="#f5f5f5" />
+  <text x="280" y="370" font-family="Arial" font-size="12" fill="#333">Temperature</text>
+  <text x="320" y="400" font-family="Arial" font-size="24" font-weight="bold" fill="#FF9800">28°C</text>
+  
+  <rect x="405" y="350" width="125" height="80" rx="10" ry="10" fill="#f5f5f5" />
+  <text x="415" y="370" font-family="Arial" font-size="12" fill="#333">Pump Status</text>
+  <circle cx="455" cy="400" r="20" fill="#4CAF50" />
+  <text x="445" y="405" font-family="Arial" font-size="12" fill="#fff">ON</text>
+  
+  <!-- Camera feed -->
+  <rect x="270" y="440" width="260" height="90" rx="10" ry="10" fill="#f5f5f5" />
+  <text x="350" y="485" font-family="Arial" font-size="14" fill="#999" text-anchor="middle">Live Camera Feed</text>
+  <circle cx="300" cy="485" r="15" fill="#ddd" />
+  <circle cx="300" cy="485" r="5" fill="#555" />
+</svg>
